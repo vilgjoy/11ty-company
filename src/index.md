@@ -2,8 +2,7 @@
 title: 'Gutenlive'
 layout: 'layouts/home.html'
 intro:
-    eyebrow: 'Välkommen till'
-    main: 'Gutenlive!'
+    main: 'Välkommen till Gutenlive!'
     summary: 'Där magi och teknologi har sammankopplats till tjänster för att hjälpa dig att växa. Låt oss se vad information kan göra tillsammans!'
     buttonText: 'Se vårt arbete'
     buttonUrl: '/work'

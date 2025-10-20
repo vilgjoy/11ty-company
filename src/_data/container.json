@@ -1,0 +1,24 @@
+{
+    "contents": [
+        {
+            "text": "Törstläkande drycker",
+            "url": "/törstläkande-drycker/",
+            "img": "/images/drinks.avif"
+        },
+        {
+            "text": "Sköna hjälmar och mössor!",
+            "url": "/energidrycker/",
+            "img": "/images/drinks.avif"
+        },
+        {
+            "text": "Smaksätta piller!",
+            "url": "/alkoholfritt/",
+            "img": "/images/drinks.avif"
+        },
+        {
+            "text": "Intressanta böcker!",
+            "url": "/kaffe-te/",
+            "img": "/images/drinks.avif"
+        }
+    ]
+}

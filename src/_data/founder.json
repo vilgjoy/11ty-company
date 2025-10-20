@@ -1,0 +1,19 @@
+{
+    "people": [
+        {
+           "name": "Emma Lindström",
+           "image": "/images/founders/emma.jpg",
+           "work": "CEO & Visionär"
+        },
+        {
+            "name": "Johan Berg",
+            "image": "/images/founders/johan.jpg",
+            "work": "Teknisk Chef"
+        },
+        {
+            "name": "Sara Nygren",
+            "image": "/images/founders/sara.jpg",
+            "work": "Designchef"
+        }
+    ]
+}

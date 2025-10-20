@@ -1,24 +1,25 @@
 {
 	"items": [
 		{
-			"text": "Home",
+			"text": "Verklig",
 			"url": "/"
 		},
 		{
-			"text": "About",
-			"url": "/about-us/"
+			"text": "Om oss",
+			"url": "layouts/about.html/"
 		},
 		{
 			"text": "Work",
 			"url": "/work/"
 		},
 		{
-			"text": "Blog",
-			"url": "/blog/"
-		},
-		{
-			"text": "Contact",
-			"url": "/contact/"
+			"text": "Produkter",
+			"url": "#",
+			"children": [
+				{"text": "Produkt 1", "url": "/produkt-1/"},
+				{"text": "Produkt 2", "url": "/produkt-2/"},
+				{"text": "Produkt 3", "url": "/produkt-3/"}
+			]
 		}
 	]
 }

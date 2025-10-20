@@ -1,0 +1,35 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<section class="about">
+  <div class="about-wrapper">
+    <div class="start">
+        <h1>{{ om.main }}</h1>
+        <p>{{ om.summary }}</p>
+    </div>
+
+    <section class="about-section">
+    <div class="about-container">
+        <img src="{{ om.bild }}" alt="Logo" class="logo">
+        <div class="about-text">
+            <p>{{ om.hero }}</p>
+        </div>
+        <div class="cta-button-container">
+            <a href="{{ om.knapp }}" class="cta-button">{{ om.knapp-text }}</a>
+        </div>
+        </div>
+    </section>
+
+    <div class="founders">
+        <h2>{{ om.founder }}</h2>
+        {% for person in founder.people %}
+            <div class="team-member">
+            <img src="{{ person.image }}" alt="{{ person.name }}">
+            <h2>{{ person.name }}</h2>
+            <p>{{ person.work }}</p>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}
