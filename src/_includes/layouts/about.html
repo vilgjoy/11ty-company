@@ -3,32 +3,47 @@
 {% block content %}
 <section class="about">
   <div class="about-wrapper">
-    <div class="start">
-        <h1>{{ om.main }}</h1>
-        <p>{{ om.summary }}</p>
+    <div class="about-hero">
+        <div class="about-hero-text">
+            <h2>{{ om.main }}</h2>
+            <p>{{ om.summary }}</p>
+        </div>
     </div>
 
     <section class="about-section">
     <div class="about-container">
-        <img src="{{ om.bild }}" alt="Logo" class="logo">
+        <img src="{{ om.BildLogo }}" alt="Logo" class="logo">
         <div class="about-text">
             <p>{{ om.hero }}</p>
         </div>
         <div class="cta-button-container">
-            <a href="{{ om.knapp }}" class="cta-button">{{ om.knapp-text }}</a>
+            <a href="{{ om.knapp }}" class="cta-button">{{ om.KnappText }}</a>
         </div>
         </div>
     </section>
 
+    <section class="what-we-do">
+    <div class="text-contents">
+        <h2>{{ om.TextRubrik }}</h2>
+        <div class="separator"></div>
+        <p>{{ om.TextFörklarning }}</p>
+    </div>
+    <div class="image-content">
+        <img src="{{ om.BildBok }}" alt="Vad vi gör">
+    </div>
+    </section>
+
     <div class="founders">
         <h2>{{ om.founder }}</h2>
-        {% for person in founder.people %}
-            <div class="team-member">
-            <img src="{{ person.image }}" alt="{{ person.name }}">
-            <h2>{{ person.name }}</h2>
-            <p>{{ person.work }}</p>
-            </div>
-        {% endfor %}
+        <div class="founders-container">
+            {% for person in founder.people %}
+                    <div class="founder">
+                        <img src="{{ person.image }}" alt="{{ person.name }}">
+                        <h3>{{ person.name }}</h3>
+                        <p>{{ person.work }}</p>
+                    </div>
+            {% endfor %}
+        </div>
     </div>
   </div>
 </section>

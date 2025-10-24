@@ -225,7 +225,7 @@ h1, h2, h3 {
 
 /* About section */
 
-.start {
+.about-hero {
     height: 400px;
     background: linear-gradient(to bottom, #FF6B00, #FFC300);
     display: flex;
@@ -236,6 +236,15 @@ h1, h2, h3 {
     position: relative;
     border-bottom-left-radius: 50% 80px;
     border-bottom-right-radius: 50% 80px;
+}
+
+.about-hero .about-hero-text {
+    max-width: 600px;
+}
+
+.about-hero h2 {
+    font-size: 3rem;
+    margin: 0;
 }
 
 .about-section {
@@ -281,4 +290,102 @@ h1, h2, h3 {
 
 .cta-button:hover {
     background: #FF4500;
+}
+
+/* Andra sektion */
+
+.what-we-do {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 50px;
+}
+
+
+.text-contents {
+    flex: 1;
+    max-width: 50%;
+}
+
+.text-contents h2 {
+    font-size: 2.5rem;
+    color: #4B3000;
+    margin-bottom: 10px;
+}
+
+
+.separator {
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(to right, #FF6B00, #FFC300);
+    margin-bottom: 20px;
+}
+
+
+.text-contents p {
+    font-size: 1.2rem;
+    color: #4B3000;
+    line-height: 1.6;
+}
+
+
+.image-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.image-content img {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Founder section */
+
+.founders {
+    text-align: center;
+    padding: 100px 10%;
+}
+
+.founders h2 {
+    font-size: 3rem; 
+    color: #4B3000;
+    margin-bottom: 50px;
+}
+
+
+.founders-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px; 
+}
+
+
+.founder {
+    text-align: center;
+    max-width: 250px;
+}
+
+
+.founder img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #FFC300; 
+}
+
+
+.founder h3 {
+    font-size: 1.8rem; 
+    color: #4B3000;
+    margin-top: 20px;
+}
+
+
+.founder p {
+    font-size: 1.3rem;
+    color: #6D4C41;
 }
